@@ -1,0 +1,93 @@
+body {
+    background-color:rgba(135, 206, 250, 0.37);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+    width: 95px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.747);
+    border: solid black 2px;  
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.colorButton{
+    background-color: #ff6f00b6;
+}
+
+.clear{
+    width: 200px;
+    background-color:#caffbfb9 ;
+}
+
+
+.delete{
+    width: 200px;
+    background-color:#ffadad ;
+}
+
+
+.screen{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: solid black 2px;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.747);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(146, 142, 142, 0.356);
+}
+
+.results{
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+.calculator {
+    height: 650px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    border: solid black 2px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.747);
+    background-color: white;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    bottom: 0;
+    width:100%;
+    position:fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab.fa-github {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 25px;
+  }
+
+  .fab.fa-github:hover{
+      transform: scale(1.3);
+  }
