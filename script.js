@@ -30,7 +30,7 @@ function subtractNumbers(a, b) {
 
  function operate(operator, num1, num2) {
      if(operator === '+'){
-         addNumbers(num1, num2);
+         return displayResults('add', addNumbers(num1, num2);
      } else if (operator === '-'){
          subtractNumbers(num1, num2);
      } else if (operator === '*'){
@@ -41,13 +41,19 @@ function subtractNumbers(a, b) {
  }
 
  // display numbers
-
        document.querySelectorAll('.num').forEach((num) => {
         num.addEventListener('click', (e) => {
-            document.getElementById('display').innerHTML += num.innerHTML
+        document.getElementById('display').innerHTML += num.innerHTML
         })
  })
-     
+
+ let displayValue =  document.getElementById('display').innerHTML;
+ 
+  
+ displayResults(task, value){
+
+
+ }
      
    
  
